@@ -48,9 +48,10 @@ flutter run
 ```
 lib/
 ├── main.dart                # App entry point
-├── models/                  # (Optional) Model classes
+├── models/                  # Model classes
 ├── providers/               # Riverpod providers
 ├── screens/                 # Main UI screens
+├── core/                    # App constants
 ```
 
 ## 📸 Screenshots

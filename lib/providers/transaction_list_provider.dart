@@ -13,11 +13,11 @@ final transactionListProvider = Provider<List<Transaction>>((ref) => [
           amount: 75.5,
           date: DateTime.now().subtract(const Duration(days: 1)),
           status: TransactionStatus.pending),
-      Transaction(
+      /* Transaction(
           id: '3',
           amount: 220.0,
           date: DateTime.now().subtract(const Duration(days: 2)),
-          status: TransactionStatus.failed),
+          status: TransactionStatus.failed),*/
       Transaction(
           id: '4',
           amount: 50.0,

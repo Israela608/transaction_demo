@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:transaction_demo/models/transaction_status.dart';
 import 'package:transaction_demo/providers/filtered_transactions_provider.dart';
 import 'package:transaction_demo/providers/selected_filter_provider.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class TransactionActivityScreen extends ConsumerWidget {
   const TransactionActivityScreen({super.key});
@@ -16,16 +17,14 @@ class TransactionActivityScreen extends ConsumerWidget {
       appBar: AppBar(title: const Text('Transaction Activity')),
       body: LayoutBuilder(
         builder: (context, constraints) {
-          final isWide = constraints.maxWidth > 600;
-
           return Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(16.h),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Wrap(
-                  spacing: 10,
-                  runSpacing: 10,
+                  spacing: 10.h,
+                  runSpacing: 10.h,
                   children: TransactionStatus.values.map((status) {
                     final label =
                         status.name[0].toUpperCase() + status.name.substring(1);
@@ -39,7 +38,7 @@ class TransactionActivityScreen extends ConsumerWidget {
                     );
                   }).toList(),
                 ),
-                const SizedBox(height: 16),
+                SizedBox(height: 16.h),
                 Expanded(
                   child: AnimatedSwitcher(
                     duration: const Duration(milliseconds: 300),
