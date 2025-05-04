@@ -55,7 +55,10 @@ lib/
 ```
 
 ## 📸 Screenshots
-Include screenshots or GIFs of the UI here.
+
+https://github.com/user-attachments/assets/712bfae3-4457-4624-955f-edc1b6a6a8b6
+
+
 
 ## 🔮 Future Enhancements
 ✅ Real-time transaction fetching from backend/API
