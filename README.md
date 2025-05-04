@@ -1,16 +1,73 @@
-# transaction_demo
+# 💸 Transaction Demo
 
-A new Flutter project.
+A lightweight, responsive Flutter app that displays a list of mock financial transactions with dynamic filtering, smooth animations, and state management powered by Riverpod.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔄 **Filterable Transactions** — View transactions by status: All, Successful, Pending, or Failed.
+- 🎯 **Riverpod State Management** — Clean and scalable MVVM structure with reactive updates.
+- ✨ **Animated Transitions** — Smooth fade animations between filter states using `AnimatedSwitcher`.
+- 🧩 **Fallback UI** — Displays a message when no transactions match the selected filter.
+- 📱💻 **Responsive Design** — Adapts seamlessly across mobile and web screen sizes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Dependencies
+
+- [flutter_riverpod](https://pub.dev/packages/flutter_riverpod)
+- Flutter SDK (3.x recommended)
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Israela608/transaction_demo.git
+
+cd transaction_demo
+```
+
+### 2. Install dependencies
+```bash
+flutter pub get
+```
+
+### 2. Run the app
+```bash
+flutter run
+```
+
+## 📁 Folder Structure
+
+lib/
+├── main.dart                # App entry point
+├── models/                  # (Optional) Model classes
+├── providers/               # Riverpod providers
+├── screens/                 # Main UI screens
+
+
+## 📸 Screenshots
+Include screenshots or GIFs of the UI here.
+
+## 🔮 Future Enhancements
+- ✅ Real-time transaction fetching from backend/API
+
+- ✅ Transaction detail screen
+
+- ✅ Dark mode support
+
+- ✅ Export/download transaction history
+
+- ✅ Add search and sort capabilities
+
+## 📝 License
+This project is licensed under the MIT License.
+See the LICENSE file for more information.
+
+## 🙋‍♂️ Author
+Made with ❤️ using Flutter and Riverpod
+Feel free to contribute or fork the project.
