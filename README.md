@@ -45,26 +45,26 @@ flutter run
 
 ## 📁 Folder Structure
 
-lib/
-- **main.dart**: The application entry point
-- **models/**: (Optional) Contains data model classes
-- **providers/**: Contains Riverpod state management providers
-- **screens/**: Contains the main UI screens of the application
+*lib/*
+**main.dart**:        #The application entry point
+**models/**:          #Contains data model classes
+**providers/**:       #Contains Riverpod state management providers
+**screens/**:         #Contains the main UI screens of the application
 
 
 ## 📸 Screenshots
 Include screenshots or GIFs of the UI here.
 
 ## 🔮 Future Enhancements
-- ✅ Real-time transaction fetching from backend/API
+✅ Real-time transaction fetching from backend/API
 
-- ✅ Transaction detail screen
+✅ Transaction detail screen
 
-- ✅ Dark mode support
+✅ Dark mode support
 
-- ✅ Export/download transaction history
+✅ Export/download transaction history
 
-- ✅ Add search and sort capabilities
+✅ Add search and sort capabilities
 
 ## 📝 License
 This project is licensed under the MIT License.
