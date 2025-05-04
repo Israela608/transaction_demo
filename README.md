@@ -45,12 +45,13 @@ flutter run
 
 ## 📁 Folder Structure
 
-*lib/*
-**main.dart**:        #The application entry point
-**models/**:          #Contains data model classes
-**providers/**:       #Contains Riverpod state management providers
-**screens/**:         #Contains the main UI screens of the application
-
+```
+lib/
+├── main.dart                # App entry point
+├── models/                  # (Optional) Model classes
+├── providers/               # Riverpod providers
+├── screens/                 # Main UI screens
+```
 
 ## 📸 Screenshots
 Include screenshots or GIFs of the UI here.
