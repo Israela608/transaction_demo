@@ -27,7 +27,9 @@ A lightweight, responsive Flutter app that displays a list of mock financial tra
 
 ```bash
 git clone https://github.com/Israela608/transaction_demo.git
+```
 
+```bash
 cd transaction_demo
 ```
 
@@ -44,10 +46,10 @@ flutter run
 ## 📁 Folder Structure
 
 lib/
-├── main.dart                # App entry point
-├── models/                  # (Optional) Model classes
-├── providers/               # Riverpod providers
-├── screens/                 # Main UI screens
+- **main.dart**: The application entry point
+- **models/**: (Optional) Contains data model classes
+- **providers/**: Contains Riverpod state management providers
+- **screens/**: Contains the main UI screens of the application
 
 
 ## 📸 Screenshots
